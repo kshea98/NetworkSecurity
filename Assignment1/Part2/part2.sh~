@@ -1,0 +1,14 @@
+#!/bin/bash
+
+
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
+cp -r zwords zwords2
+mv zwords2 ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2
+
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/zwords2
+
+cat sortedwords.txt | grep "^z" >> reversewords.txt
+cat sortedwords.txt | grep  "Z *" >> reversewords.txt
+
+mv reversewords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2
+
