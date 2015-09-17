@@ -13,6 +13,8 @@ cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2
 mkdir reversewords
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/zwords2
 mv reversewords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf zwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -23,6 +25,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^y" >> reversewords.txt
 cat sortedwords.txt | grep "Y *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf ywords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -33,6 +37,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^x" >> reversewords.txt
 cat sortedwords.txt | grep "X *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf xwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r wwords wwords2
@@ -42,6 +48,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^w" >> reversewords.txt
 cat sortedwords.txt | grep "W *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf wwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r vwords vwords2
@@ -51,6 +59,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^v" >> reversewords.txt
 cat sortedwords.txt | grep "V *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf vwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r uwords uwords2
@@ -60,6 +70,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^u" >> reversewords.txt
 cat sortedwords.txt | grep "U *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf uwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r twords twords2
@@ -69,6 +81,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^t" >> reversewords.txt
 cat sortedwords.txt | grep "T *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf twords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r swords swords2
@@ -78,6 +92,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^s" >> reversewords.txt
 cat sortedwords.txt | grep "S *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf swords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -88,6 +104,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^r" >> reversewords.txt
 cat sortedwords.txt | grep "R *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf rwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r qwords qwords2
@@ -97,6 +115,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^q" >> reversewords.txt
 cat sortedwords.txt | grep "Q *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf qwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r pwords pwords2
@@ -106,6 +126,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^p" >> reversewords.txt
 cat sortedwords.txt | grep "P *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf pwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r owords owords2
@@ -115,6 +137,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^o" >> reversewords.txt
 cat sortedwords.txt | grep "O *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf owords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -125,6 +149,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^n" >> reversewords.txt
 cat sortedwords.txt | grep "N *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf nwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -135,6 +161,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^m" >> reversewords.txt
 cat sortedwords.txt | grep "M *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf mwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r lwords lwords2
@@ -144,6 +172,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^l" >> reversewords.txt
 cat sortedwords.txt | grep "L *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf lwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r kwords kwords2
@@ -153,6 +183,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^k" >> reversewords.txt
 cat sortedwords.txt | grep "K *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf kwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -163,6 +195,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^j" >> reversewords.txt
 cat sortedwords.txt | grep "J *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf jwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r iwords iwords2
@@ -172,6 +206,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^i" >> reversewords.txt
 cat sortedwords.txt | grep "I *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf iwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r hwords hwords2
@@ -181,6 +217,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^h" >> reversewords.txt
 cat sortedwords.txt | grep "H *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf hwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -191,6 +229,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^g" >> reversewords.txt
 cat sortedwords.txt | grep "G *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf gwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r fwords fwords2
@@ -200,6 +240,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^f" >> reversewords.txt
 cat sortedwords.txt | grep "F *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf fwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r ewords ewords2
@@ -209,6 +251,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^e" >> reversewords.txt
 cat sortedwords.txt | grep "E *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf ewords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r dwords dwords2
@@ -218,6 +262,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^d" >> reversewords.txt
 cat sortedwords.txt | grep "D *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf dwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -228,6 +274,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^c" >> reversewords.txt
 cat sortedwords.txt | grep "C *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf cwords2
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
 cp -r bwords bwords2
@@ -237,6 +285,8 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^b" >> reversewords.txt
 cat sortedwords.txt | grep "B *" >> reversewords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf bwords2
 
 
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
@@ -247,6 +297,10 @@ mv  sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reverse
 cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/reversewords
 cat sortedwords.txt | grep "^a" >> reversewords.txt
 cat sortedwords.txt | grep "A *" >> reversewords.txt
+rm sortedwords.txt
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part2/
+rm -rf awords2
+
 
 
 

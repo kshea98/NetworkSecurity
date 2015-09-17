@@ -162,5 +162,5 @@ mv sortedwords.txt ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1/zwords
 
 
 rm words.txt
-cd ~/Documents/GitHub/NetworkSecurity/Assignment1/
-ps
+cd ~/Documents/GitHub/NetworkSecurity/Assignment1/Part1
+ls -l
