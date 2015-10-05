@@ -7,10 +7,6 @@
 
 ./nmap_simulate.sh | grep -i "[0-9A-F]\{2\}\(:[0-9A-F]\{2\}\)\{5\}" >> mac.txt
 
-#for ip in 192.168.1.{1..10}; do
-#ping -c 1 -t 1 $ip > /dev/null && 
-#echo "${ip} is up" >> Ips.txt ; done 
-
 #for i {1..10}
 #do
 #echo -n "#"
