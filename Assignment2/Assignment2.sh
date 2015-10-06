@@ -5,7 +5,9 @@
 
 ./nmap_simulate.sh | grep -Eo "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}" >> ip.txt
 
-./nmap_simulate.sh | grep -i "[0-9A-F]\{2\}\(:[0-9A-F]\{2\}\)\{5\}" >> mac.txt
+./nmap_simulate.sh | grep -io "[0-9A-F]\{2\}\(:[0-9A-F]\{2\}\)\{5\}" >> mac.txt
+
+cat mac.txt | uniq -c >> count.txt
 
 #for i {1..10}
 #do
