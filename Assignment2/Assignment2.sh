@@ -9,7 +9,7 @@
 
 cat mac.txt | sort | uniq -c >> count.txt
 
-echo this is the hacker 
+echo This is the Hacker 
 cat count.txt | tail -1 
 
 
